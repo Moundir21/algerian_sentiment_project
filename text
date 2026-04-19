@@ -1,0 +1,3 @@
+ 1359  python main.py --model ml
+ 1360  python main.py --model lstm
+ 1361  python main.py

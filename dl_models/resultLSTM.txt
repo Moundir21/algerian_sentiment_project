@@ -1,0 +1,32 @@
+(ai_env) moundir@moundir-HP:~/myprojects/python/algerian_sentiment_project$ python main.py
+
+📊 Comparison:
+LSTM vs GRU based on accuracy and training time
+ 
+ 🔵 Training LSTM...
+2026-04-19 23:50:47.173262: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-04-19 23:50:51.469053: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+Epoch 1/20
+79/79 ━━━━━━━━━━━━━━━━━━━━ 0s 290ms/step - accuracy: 0.7775 - loss: 0.6217WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+79/79 ━━━━━━━━━━━━━━━━━━━━ 28s 305ms/step - accuracy: 0.8139 - loss: 0.5046 - val_accuracy: 0.8607 - val_loss: 0.3375 - learning_rate: 0.0010
+Epoch 2/20
+79/79 ━━━━━━━━━━━━━━━━━━━━ 0s 275ms/step - accuracy: 0.8405 - loss: 0.3788WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+79/79 ━━━━━━━━━━━━━━━━━━━━ 23s 294ms/step - accuracy: 0.8448 - loss: 0.3575 - val_accuracy: 0.8643 - val_loss: 0.2949 - learning_rate: 0.0010
+Epoch 3/20
+79/79 ━━━━━━━━━━━━━━━━━━━━ 24s 298ms/step - accuracy: 0.8988 - loss: 0.2219 - val_accuracy: 0.8643 - val_loss: 0.2929 - learning_rate: 0.0010
+Epoch 4/20
+79/79 ━━━━━━━━━━━━━━━━━━━━ 24s 300ms/step - accuracy: 0.9278 - loss: 0.1514 - val_accuracy: 0.8321 - val_loss: 0.3370 - learning_rate: 0.0010
+Epoch 5/20
+79/79 ━━━━━━━━━━━━━━━━━━━━ 24s 302ms/step - accuracy: 0.9373 - loss: 0.1320 - val_accuracy: 0.8393 - val_loss: 0.3541 - learning_rate: 0.0010
+Epoch 6/20
+79/79 ━━━━━━━━━━━━━━━━━━━━ 24s 301ms/step - accuracy: 0.9440 - loss: 0.1123 - val_accuracy: 0.8250 - val_loss: 0.3778 - learning_rate: 3.0000e-04
+22/22 ━━━━━━━━━━━━━━━━━━━━ 2s 81ms/step - accuracy: 0.8516 - loss: 0.3699
+
+✅ LSTM Accuracy: 0.8516
+
+🟢 Training GRU...
+
+📊 Comparison:
+LSTM vs GRU based on accuracy and training time
+(ai_env) moundir@moundir-HP:~/myprojects/python/algerian_sentiment_project$ 
