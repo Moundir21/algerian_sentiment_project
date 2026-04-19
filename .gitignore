@@ -1,3 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+env/
+
+# Models
 *.h5
 *.pkl
-__pycache__/
+
+# Data (اختياري)
+data/
+
+# VS Code
+.vscode/
+
+# System
+.DS_Store
