@@ -23,5 +23,5 @@ venv/
 *.tar
 
 # Optional: ignore large models (إذا لا تريد رفعهم)
-# *.h5
-# *.pkl
+*.h5
+*.pkl
