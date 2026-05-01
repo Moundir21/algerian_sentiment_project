@@ -1,20 +1,27 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
 
-# Virtual env
+# Virtual environments
 venv/
-env/
+.venv/
 
-# Models
-*.h5
-*.pkl
+# Jupyter
+.ipynb_checkpoints
 
-# Data (اختياري)
-data/
-
-# VS Code
-.vscode/
+# Logs
+*.log
 
 # System
 .DS_Store
+
+# Git
+.git
+
+# Docker
+*.tar
+
+# Optional: ignore large models (إذا لا تريد رفعهم)
+# *.h5
+# *.pkl

@@ -29,4 +29,3 @@ Epoch 6/20
 
 📊 Comparison:
 LSTM vs GRU based on accuracy and training time
-(ai_env) moundir@moundir-HP:~/myprojects/python/algerian_sentiment_project$ 

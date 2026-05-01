@@ -1,0 +1,17 @@
+__pycache__
+*.pyc
+*.pyo
+
+.git
+.gitignore
+
+venv
+.venv
+
+*.log
+.ipynb_checkpoints
+
+# Optional: إذا تريد تقليل حجم image
+data/
+*.h5
+*.pkl

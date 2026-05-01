@@ -5,7 +5,7 @@ print("\n📊 Comparison:")
 print("LSTM vs GRU based on accuracy and training time")
 
 print(" \n 🔵 Training LSTM...")
-#train_lstm_model()
+train_lstm_model()
 
 print("\n🟢 Training GRU...")
 train_gru_model()
